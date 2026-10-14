@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Statistics – Homeworks</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .home-list { display: grid; gap: 14px; margin: 25px 0 70px; }
+    .home-item { padding: 22px 24px; display: flex; justify-content: space-between; align-items: center; gap: 20px; }
+    .home-item h2 { margin: 0 0 5px; font-size: 21px; }
+    .home-item p { margin: 0; color: var(--muted); font-size: 14px; }
+    .home-item a { background: #45667e; color: white; border-radius: 5px; padding: 10px 16px; white-space: nowrap; font-weight: 700; font-size: 14px; }
+    .home-item a:hover { background: #344e63; }
+    .home-item .upcoming { color: var(--muted); font-size: 13px; white-space: nowrap; }
+    @media (max-width: 600px) { .home-item { align-items: flex-start; flex-direction: column; } }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap top-inner">
+      <div class="brand">Statistics – Homeworks</div>
+      <nav><a href="index.html">Home</a><a href="Homework1/index.html">Homework 1</a></nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <section class="hero">
+      <p class="eyebrow">STATISTICS COURSE</p>
+      <h1>Statistics – Homeworks</h1>
+      <p class="lead">A collection of assignments and small experiments for the Statistics course.</p>
+    </section>
+    <section>
+      <h2>Homework index</h2>
+      <div class="home-list">
+        <article class="card home-item">
+          <div><h2>Homework 1</h2><p>Private Key → Public Key: a simple elliptic-curve experiment with statistics.</p></div>
+          <a href="Homework1/index.html">Open Homework 1 →</a>
+        </article>
+        <article class="card home-item">
+          <div><h2>Homework 2</h2><p>Not available yet.</p></div>
+          <span class="upcoming">Coming soon</span>
+        </article>
+        <article class="card home-item">
+          <div><h2>Homework 3</h2><p>Not available yet.</p></div>
+          <span class="upcoming">Coming soon</span>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer><div class="wrap footer-inner">Statistics – Homeworks</div></footer>
+</body>
+</html>
